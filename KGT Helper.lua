@@ -1,4 +1,4 @@
-script_version("15.03.21")
+script_version("1.0")
 require "lib.moonloader"
 require "lib.sampfuncs"
 local imgui = require 'imgui'
@@ -840,7 +840,7 @@ function main()
 	
 	autoupdate("https://raw.githubusercontent.com/TSIDEX/auto-update/main/KGT.json", '['..string.upper(thisScript().name)..']: ', "https://raw.githubusercontent.com/TSIDEX/auto-update/main/KGT%20Helper.lua")
 	
-		sampAddChatMessage('{4c4f45}[KGT Helper] {FFFFFF}Скрипт 2KGT Helper {CC0000}Региональной службы безопасности{FFFFFF} успешно запущен, приятного пользования.', 0xffffff)
+		sampAddChatMessage('{4c4f45}[KGT Helper] {FFFFFF}Скрипт KGT Helper {CC0000}Региональной службы безопасности{FFFFFF} успешно запущен, приятного пользования.', 0xffffff)
 		sampAddChatMessage('{4c4f45}[KGT Helper] {FFFFFF}Разработчики скрипта: Trofim Shcherbakov и Alexander Russkov. Дополнительная информация - /kgt .', 0xffffff)
 		sampRegisterChatCommand("cmd1", cmd1)
 		sampRegisterChatCommand("update", udpate)
