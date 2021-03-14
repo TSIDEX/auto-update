@@ -1,3 +1,4 @@
-[info]
-vers=1.0
-vers_text=v1.0
+{
+  "updateurl": "https://raw.githubusercontent.com/TSIDEX/auto-update/main/KGT%20Helper.lua",
+  "latest": "14.03.2021"
+}
