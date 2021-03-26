@@ -1,4 +1,4 @@
-script_version(1.0)
+script_version(1.1)
 require "lib.moonloader"
 require "lib.sampfuncs"
 local imgui = require 'imgui'
@@ -11,6 +11,7 @@ local key = require 'vkeys'
 local sampev = require 'lib.samp.events'
 local memory = require("memory")
 local mem = require "memory"
+local dlstatus = require('moonloader').download_status
 
 script_name("Система Региональной службы безопасности")
 script_author("Fernando Cavalli начальник четвёртого главного управления KGT")
