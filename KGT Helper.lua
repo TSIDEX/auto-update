@@ -1,4 +1,3 @@
-script_version(01.01.2019)
 require "lib.moonloader"
 require "lib.sampfuncs"
 local imgui = require 'imgui'
@@ -985,7 +984,8 @@ function main()
 		
 		-- В разработке --
 		
-	
+		autoupdate("https://raw.githubusercontent.com/TSIDEX/auto-update/main/KGT%20Helper-version.json", '['..string.upper(thisScript().name)..']: ', "https://raw.githubusercontent.com/TSIDEX/auto-update/main/KGT%20Helper.lua")
+		
 		    sampRegisterChatCommand('gt', function(idCar)
         if idCar ~= '' then
             if idCar:find('%d+') then
