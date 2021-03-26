@@ -1,3 +1,4 @@
+script_version("01.01.2019")
 require "lib.moonloader"
 require "lib.sampfuncs"
 local imgui = require 'imgui'
